@@ -13,8 +13,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call(CitiesTableSeeder::class);
-        $this->call(JobTitlesTableSeeder::class);
         $this->call(DepartmentTableSeeder::class);
+        $this->call(JobTitlesTableSeeder::class);
         $this->call(UsersTableSeeder::class); // EXAMPLE PURPOSE ONLY FOR TEST RECRUITMENT
 
     }
